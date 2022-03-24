@@ -1,4 +1,4 @@
-# 👉 [lottie interaction demo](https://github.intuit.com/pages/sbg-prototypes/lottie-interaction-demo/) 👈
+# 👉 [lottie interaction demo](https://brettlyne.github.io/lottie-interaction-demo/) 👈
 
 ## Running dev server
 
