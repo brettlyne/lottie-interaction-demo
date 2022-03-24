@@ -1,0 +1,31 @@
+{
+  "name": "lottie-interaction-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --out-dir docs --public-url /pages/sbg-prototypes/lottie-interaction-demo/ --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.intuit.com/sbg-prototypes/lottie-interaction-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.17.4"
+  },
+  "dependencies": {
+    "lottie-web": "^5.5.8",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-highlight": "^0.12.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.1"
+  }
+}

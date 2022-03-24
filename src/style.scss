@@ -1,0 +1,54 @@
+h1 {
+  font-weight: 500;
+}
+h3 {
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+p {
+  margin-top: 0;
+}
+body {
+  margin: 40px;
+}
+pre {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.play-button {
+  cursor: pointer;
+  transition: all 80ms ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:active {
+    transform: scale(1.05);
+    transition: none;
+  }
+}
+
+#lottie-scooter,
+#lottie-div {
+  height: 600px;
+  width: 600px;
+  border: 1px solid #333;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.content {
+  margin-left: 640px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+section {
+  margin-top: 40px;
+}
+
+.fade-out {
+  transition: opacity 500ms;
+  opacity: 0;
+}

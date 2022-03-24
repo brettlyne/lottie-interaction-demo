@@ -1,0 +1,11 @@
+/dist
+
+.cache
+
+logs
+npm-debug.log*
+.npm
+
+/node_modules
+
+.DS_Store
