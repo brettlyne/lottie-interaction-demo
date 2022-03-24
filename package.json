@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html --out-dir docs --public-url /pages/sbg-prototypes/lottie-interaction-demo/ --no-source-maps"
+    "build": "parcel build src/index.html --out-dir docs --public-url /lottie-interaction-demo/ --no-source-maps"
   },
   "repository": {
     "type": "git",
